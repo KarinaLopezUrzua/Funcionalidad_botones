@@ -1,0 +1,102 @@
+.contenedor {
+    display: inline;
+    font-family: cursive;
+}
+
+.barra_superior {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgray;
+    height: 60px;
+}
+
+.barra_superior h1 {
+    font-size: 40px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border: solid black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#boton1 {
+    background-color: rgb(33, 128, 172);
+    box-shadow: 3px 3px 1px black;
+    border-color: black;
+    color: white
+}
+
+.contenedor_secundario {
+    display: flex;
+}
+
+.contenedor_izquierda {
+    display: inline-block;
+    margin: 20px;
+}
+
+.contenedor_arriba,
+.contenedor_abajo {
+    border: solid black;
+    display: flex;
+    margin: 20px 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.bloque1,
+.bloque2 {
+    margin: 10px 20px;
+}
+
+.bloque1 p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#boton2,
+#boton3 {
+    background-color: rgb(255, 202, 24);
+    box-shadow: 4px 4px 1px black;
+    border-color: black;
+    color: black;
+    height: 40px;
+    width: 100px;
+
+}
+
+.contenedor_derecha {
+    border: solid black;
+    margin-top: 20px;
+    margin: 40px 30px;
+    margin-left: 0px;
+    padding: 20px;
+    height: 170px;
+    display: inline-block;
+}
+
+#boton4 {
+    background-color: rgb(134, 177, 48);
+    box-shadow: 4px 4px 1px black;
+    border-color: black;
+    color: black;
+    width: 250px;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.bloque2,
+.contenedor_derecha p {
+    font-size: 25px;
+}

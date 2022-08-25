@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Onclick</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="logic.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="barra_superior">
+            <h1> Dojonary </h1>
+            <input type="text" name="buscador" placeholder="Search">
+            <button id="boton1" onclick="Login(this)">Login</button>
+        </div>
+
+        <div class="contenedor_secundario">
+
+            <div class="contenedor_izquierda">
+                <div class="contenedor_arriba">
+                    <div class="bloque1">
+                        <h1>ninja</h1>
+                        <p>Sustantivo</p>
+                        <p>Plural:ninjas</p>
+                        <button id="boton2" onclick="Like()">13 likes</button>
+                    </div>
+                    <div class="bloque2">
+                        <p>Un practicante experto en el arte <u><span style="color:blue">Japonés</span></u> del <u><span
+                                    style="color:blue">ninjutsu</span></u></p>
+                    </div>
+                </div>
+                <div class="contenedor_abajo">
+                    <div class="bloque1">
+                        <h1>ninja</h1>
+                        <p>Sustantivo</p>
+                        <p>Plural:ninjas</p>
+                        <button id="boton3" onclick="Like(this)">37 likes</button>
+                    </div>
+                    <div class="bloque2">
+                        <p>Un <u><span style="color:blue">programador</span></u> que descompone los problemas con un
+                            enfoque zen</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor_derecha">
+                <p>El Dojonario lo defines <strong>TÚ</strong></p>
+                <button id="boton4" onclick="Add(this)">Agrega una definición</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
